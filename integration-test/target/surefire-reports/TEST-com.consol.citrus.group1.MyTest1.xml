@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.consol.citrus.group1.MyTest1" time="3.56" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_45\jre\bin"/>
+    <property name="java.vm.version" value="25.45-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="test" value="MyTest1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="K:\JavaWorkShop\GitRepository\master\integration-test"/>
+    <property name="java.runtime.version" value="1.8.0_45-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_45\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\kapilborkar\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="K:\JavaWorkShop\JavaTools\apache-maven-3.1.1\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_45\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\kapilborkar\AppData\Local\GitHub\PortableGit_f02737a78695063deace08e96d5042710d3e32db\cmd;C:\Users\kapilborkar\AppData\Local\GitHub\PortableGit_f02737a78695063deace08e96d5042710d3e32db\usr\bin;C:\Users\kapilborkar\AppData\Local\GitHub\PortableGit_f02737a78695063deace08e96d5042710d3e32db\usr\share\git-tfs;C:\Users\kapilborkar\AppData\Local\Apps\2.0\79NMWX0N.W6O\ODD6HWQA.45R\gith..tion_317444273a93ac29_0003.0003_5794af8169eeff14;C:\Users\kapilborkar\AppData\Local\GitHub\lfs-x86_1.5.5;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Broadcom\Broadcom 802.11\Driver;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\Java\jdk1.8.0_45\bin;C:\Program Files\Java\jdk1.8.0_45\lib;K:\JavaWorkShop\JavaTools\apache-maven-3.1.1\bin;K:\JavaWorkShop\gradle-3.4.1\bin;C:\Program Files\Skype\Phone\;K:\JavaWorkShop\groovy-2.4.12\bin;C:\Users\kapilborkar\AppData\Local\Microsoft\WindowsApps;;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\kapilborkar"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="kapilborkar"/>
+    <property name="java.class.path" value="K:\JavaWorkShop\JavaTools\apache-maven-3.1.1\boot\plexus-classworlds-2.5.1.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_45\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean integration-test -Dtest=MyTest1"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_45"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_45\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="K:\JavaWorkShop\JavaTools\apache-maven-3.1.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase name="myTest1" classname="com.consol.citrus.group1.MyTest1" time="0.204"/>
+  <testcase name="afterSuite" classname="com.consol.citrus.group1.MyTest1" time="0.302">
+    <failure message="org/apache/commons/codec/binary/Base64" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/apache/commons/codec/binary/Base64
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.codec.binary.Base64
+</failure>
+    <system-out><![CDATA[23:57:50,545 INFO         citrus.Citrus| 
+23:57:50,546 INFO         citrus.Citrus| ------------------------------------------------------------------------
+23:57:50,546 DEBUG        citrus.Citrus| AFTER TEST SUITE
+23:57:50,547 INFO         citrus.Citrus| 
+23:57:50,547 INFO         citrus.Citrus| 
+23:57:50,547 INFO         citrus.Citrus| AFTER TEST SUITE: SUCCESS
+23:57:50,547 INFO         citrus.Citrus| ------------------------------------------------------------------------
+23:57:50,548 INFO         citrus.Citrus| 
+23:57:50,548 INFO         citrus.Citrus| ------------------------------------------------------------------------
+23:57:50,548 INFO         citrus.Citrus| 
+23:57:50,548 INFO         citrus.Citrus| CITRUS TEST RESULTS
+23:57:50,548 INFO         citrus.Citrus| 
+23:57:50,550 INFO         citrus.Citrus|  MyTest1 ........................................................ SUCCESS
+23:57:50,550 INFO         citrus.Citrus| 
+23:57:50,550 INFO         citrus.Citrus| TOTAL:	1
+23:57:50,554 DEBUG        citrus.Citrus| SKIPPED:	0 (0.0%)
+23:57:50,554 INFO         citrus.Citrus| FAILED:	0 (0.0%)
+23:57:50,555 INFO         citrus.Citrus| SUCCESS:	1 (100.0%)
+23:57:50,555 INFO         citrus.Citrus| 
+23:57:50,555 INFO         citrus.Citrus| ------------------------------------------------------------------------
+23:57:50,555 DEBUG  report.HtmlReporter| Generating HTML test report
+23:57:50,557 DEBUG       util.FileUtils| Reading file resource: 'test-detail.html' (encoding is 'windows-1252')
+]]></system-out>
+  </testcase>
+</testsuite>
